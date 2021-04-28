@@ -15,53 +15,44 @@
     padding: 10px;
     border-radius: 5px;
   }
-  
-  .theme.col-1 {
-    background-color:$LightPurple;
-  }
-  
-  .theme.col-2 {
-    background-color: $LightOrange;
-  }
-  
-  .theme.col-3 {
-    background-color: #deb2ee;
-  }
-  
-  .theme.col-4 {
-    background-color: #7ee6fd;
-  }
-  
-  .theme.col-5 {
-    background-color: #88d9a0;
-  }
-  
-  .theme.col-6 {
-    background-color: #4da2bb;
-  }
-  
-  .theme.col-7 {
-    background-color: #ec9fa3;
-  }
-  
-  .theme.col-8 {
-    background-color: #fd9f85;
-  }
-  
-  .theme.col-9 {
-    background-color: $Sunglo;
-  }
-  
-  .theme.col-10 {
-    background-color: #63cc82;
-  }
-  
-  .theme.col-11 {
-    background-color: $LightCyan;
-  }
-  
-  .theme.col-12 {
-    background-color: #80e8d1;
+
+  .theme.col {
+    &-1 {
+      background-color:$LightPurple;
+    }
+    &-2 {
+      background-color: $LightOrange;
+    }
+    &-3 {
+      background-color: #deb2ee;
+    }
+    &-4 {
+      background-color: #7ee6fd;
+    }
+    &-5 {
+      background-color: #88d9a0;
+    }
+    &-6 {
+      background-color: #4da2bb;
+    }
+    &-7 {
+      background-color: #ec9fa3;
+    }
+    &-8 {
+      background-color: #fd9f85;
+    }
+    &-9 {
+      background-color: $Sunglo;
+    }
+    &-10 {
+      background-color: #63cc82;
+    }
+    &-11 {
+      background-color: $LightCyan;
+    }
+    &-12 {
+      background-color: #80e8d1;
+    }
   }
   
   .card {
